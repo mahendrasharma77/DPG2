@@ -134,24 +134,10 @@ void find_planar(vector <pi > adj[],int v,int e,int f)
 }
 int main()
 {
-	//int v=4,e=6;
 	int v=5,e=6;
 	int f = e-v+2;
 	vector<pi > adj[v];
 	priority_queue<pj, vector<pj>, greater<pj> > pq;
-	/*addedge(adj,0,1,7);	//To check for Toy graph
-	addedge(adj,0,3,5);
-	addedge(adj,0,2,0);
-	addedge(adj,1,0,7);
-	addedge(adj,1,2,9);
-	addedge(adj,1,3,3);
-	addedge(adj,3,2,2);
-	addedge(adj,3,0,5);
-	addedge(adj,3,1,3);
-	addedge(adj,2,0,0);
-	addedge(adj,2,3,2);
-	addedge(adj,2,1,9);*/
-	
 	addedge(adj,0,1,3);
 	addedge(adj,0,3,7);
 	addedge(adj,0,2,0);
