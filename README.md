@@ -1,2 +1,0 @@
-# DPG2
-The code given is used to find the maximum flow in planar graph by first constructing the dual of given graph and then running dijikstra's algorithm in dual graph to find the shortest distance from lower vertex to highest vertex(that separate source and sink in original graph i.e forms a cut). The input edges to the code must be given in anticlockwise order which is underlying assumption.  
